@@ -386,7 +386,7 @@ module.exports = msgHandler = async (client, message) => {
                 client.reply(from, 'Usage :\n!brainly [pertanyaan] [.jumlah]\n\nEx : \n!brainly NKRI .2', id)
             }
             break
-        case '!wait':
+        case '!artiskorea':
             if (isMedia && type === 'image' || quotedMsg && quotedMsg.type === 'image') {
                 if (isMedia) {
                     var mediaData = await decryptMedia(message, uaOverride)
