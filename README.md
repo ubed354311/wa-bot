@@ -87,3 +87,6 @@ Fix Stuck on linux, install google chrome stable:
 > wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 > sudo apt install ./google-chrome-stable_current_amd64.deb
 ```
+DONASI
+PULSA 081358195297
+BNI O432526645 UBAYDILLAH
