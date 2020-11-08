@@ -132,7 +132,7 @@ module.exports = msgHandler = async (client, message) => {
                 } catch(err) {
                     console.log(err)
                 }
-            }
+            }n
             break
         case '!donasi':
         case '!donate':
@@ -168,7 +168,7 @@ module.exports = msgHandler = async (client, message) => {
                 client.reply(from, 'Masukkan data bahasa : [id] untuk indonesia, [en] untuk inggris, [jp] untuk jepang, dan [ar] untuk arab', id)
             }
             break
-        case 'nulis':
+        case '!nulis':
             if (args.length == 0) return aruga.reply(from, `Membuat bot menulis teks yang dikirim menjadi gambar\nPemakaian: ${prefix}nulis [teks]\n\ncontoh: ${prefix}nulis i love you 3000`, id)
             const nulisq = body.slice(7)
             const nulisp = await rugaapi.tulis(nulisq)
